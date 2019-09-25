@@ -1,252 +1,137 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="icon" type="image/png" href="image/favicon.ico">
-		<title>Anh <3 Em</title>	    
-        <link type="text/css" rel="stylesheet" href="./renxi/default.css">
-		<script type="text/javascript" src="./renxi/jquery.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-parser.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-jit.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./renxi/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./renxi/love.js" charset="utf-8"></script>
-	    <style type="text/css">
-<!--
-.STYLE1 {color: #666666}
--->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<title>I Love You :-*</title>
+<link rel="stylesheet" href="css/popup.css">
+<link rel="stylesheet" href="css/styles.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="js/jquery.popup.js"></script>
+<script src="js/popup.js" type="text/javascript"></script>
+<script src="js/jquery-1.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="http://cdn.vietdesigner.net/data/codes/snow1.js"></script>
+<script type="text/javascript">
 
-        </style>
-</head>
-    <body>
-	
-			<audio autoplay="autopaly">
-					<source src="music/I-Do-911.mp3" type="audio/mp3" />
-			</audio>  
-        <div id="main">
-            <div id="error">Trình duyệt của bạn không được hỗ trợ. Để được hỗ trợ liên hệ facebook/huykhangvo0209. Hoặc sử dụng (<a href="http://www.google.cn/chrome">Chrome</a>) và (<a href="http://firefox.com/download/">Firefox</a>)</div>
-             <div id="wrap">
-                <div id="text">
-			        <div id="code">
-			      <font color="#0000FF"><span class="say">Chào em yêu,</span><br>
-						<span class="say"> </span><br>
-						<span class="say">Em là người con gái anh yêu nhất :)</span><br>
-						<span class="say">Em xinh đẹp nhất !</span><br>
-						<span class="say">Em đáng yêu nhất !</span><br>
-						<span class="say">Em cũng yêu anh nhất :) !</span><br>
-						<span class="say">Em là một điều may mắn trong cuộc sống của anh</span><br>
-						<span class="say">..."Có em, anh sẽ chẳng cần điều gì khác em"</span><br>
-						<span class="say">Yêu em cho đến khi nào anh không còn tồn tại <3</span><br>
-						<span class="say">Ngoài em ra tôi chẳng thể say đắm thêm một ai  :*</span><br>
-						<span class="say">Cho anh làm người yêu em nhé :)</span><br>
-						<span class="say"> </span><br>
-                        <span class="say"><span class="space"></span> -- Yêu em thật nhiều --</span>
-			  </font></p>
-      </div>
-                </div>
-                <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#FF0000">Anh <3 Em</font>
-<span class="STYLE1"> Time of love...</span>
-                  <div id="clock"></div>
-              </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
-            </div>
-            
+$(document).ready(function () {
+	$('a.btn-ok, #msb-nt').click(function () {		
+		$('#dialog-overlay, #dialog-box').hide();		
+		return false;
+	});
+	$(window).resize(function () {
+		if (!$('#dialog-box').is(':hidden')) popup();		
+	});	
+});
+function popup(message) {	
+	var maskHeight = $(document).height();  
+	var maskWidth = $(window).width();
+	var dialogTop =  (maskHeight/3) - ($('#dialog-box').height());  
+	var dialogLeft = (maskWidth/2) - ($('#dialog-box').width()/2); 
+	$('#dialog-overlay').css({height:maskHeight, width:maskWidth}).show();
+	$('#dialog-box').css({top:dialogTop, left:dialogLeft}).show();
+	$('#dialog-message').html(message);
+}
+</script>
+<script language="javascript"> 
+var kt=false
+function move()
+{
+var x = Math.random()*500
+var y = Math.random()*500
+var left=x+'px'
+var top=y+'px'
+document.getElementById('lbNo').style.left=left
+document.getElementById('lbNo').style.top=top
+}
+function dongy()
+{
+if(kt==false)
+{
+
+kt=true 
+} 
+else
+{
+}
+}
+</script>
+<script src="js/pace.min.js"></script>
+  <link href="css/dataurl.css" rel="stylesheet" />
+
+</head>	
+<body onload="popup('<p>Em à hãy trả lời câu hỏi của anh nhé. Trả lời cho thật lòng đó nghe chưa ^^! :-*</p></br>'); on()" onunload="s()">
+<div id="bg"></div>
+<div id="myModal" class="reveal-modal large">
+    <div id="traloi">
+      <h1><center>ANH BIẾT MÀ <img src="img/1.gif"/></center></h1></br>
+	  <p>Nếu câu trả lời hồi nãy là ép buộc thì hãy trả lời lại nhé :v. Nhập câu trả lời xuống bên dưới và bấm GỬI ĐI</br></br></p>
+      <form id="f" name="f">
+        <input id="form" name="txt" type="text" />
+
+        <div>
+          <input id="gui" onclick="Yeu();" type="button" value="Gửi đi" />
         </div>
-    
-    <script>
-    </script>
+      </form>
+    </div>
 
-    <script>
-    (function(){
-        var canvas = $('#canvas');
-		
-        if (!canvas[0].getContext) {
-            $("#error").show();
-            return false;        }
+    <div style="clear: both;"></div>
 
-        var width = canvas.width();
-        var height = canvas.height();        
-        canvas.attr("width", width);
-        canvas.attr("height", height);
-        var opts = {
-            seed: {
-                x: width / 2 - 20,
-                color: "rgb(190, 26, 37)",
-                scale: 2
-            },
-            branch: [
-                [535, 680, 570, 250, 500, 200, 30, 100, [
-                    [540, 500, 455, 417, 340, 400, 13, 100, [
-                        [450, 435, 434, 430, 394, 395, 2, 40]
-                    ]],
-                    [550, 445, 600, 356, 680, 345, 12, 100, [
-                        [578, 400, 648, 409, 661, 426, 3, 80]
-                    ]],
-                    [539, 281, 537, 248, 534, 217, 3, 40],
-                    [546, 397, 413, 247, 328, 244, 9, 80, [
-                        [427, 286, 383, 253, 371, 205, 2, 40],
-                        [498, 345, 435, 315, 395, 330, 4, 60]
-                    ]],
-                    [546, 357, 608, 252, 678, 221, 6, 100, [
-                        [590, 293, 646, 277, 648, 271, 2, 80]
-                    ]]
-                ]] 
-            ],
-            bloom: {
-                num: 700,
-                width: 1080,
-                height: 650,
-            },
-            footer: {
-                width: 1200,
-                height: 5,
-                speed: 10,
-            }
-        }
+    <div id="divResult" style="text-align: center"></div>
 
-        var tree = new Tree(canvas[0], width, height, opts);
-        var seed = tree.seed;
-        var foot = tree.footer;
-        var hold = 1;
+    <div id="divResult2"></div>
 
-        canvas.click(function(e) {
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            if (seed.hover(x, y)) {
-                hold = 0; 
-                canvas.unbind("click");
-                canvas.unbind("mousemove");
-                canvas.removeClass('hand');
-            }
-        }).mousemove(function(e){
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            canvas.toggleClass('hand', seed.hover(x, y));
-        });
-
-        var seedAnimate = eval(Jscex.compile("async", function () {
-            seed.draw();
-            while (hold) {
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canScale()) {
-                seed.scale(0.95);
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canMove()) {
-                seed.move(0, 2);
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-        }));
-
-        var growAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.grow();
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canGrow());
-        }));
-
-        var flowAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.flower(2);
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canFlower());
-        }));
-
-        var moveAnimate = eval(Jscex.compile("async", function () {
-            tree.snapshot("p1", 240, 0, 610, 680);
-            while (tree.move("p1", 500, 0)) {
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-            foot.draw();
-            tree.snapshot("p2", 500, 0, 610, 680);
-
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
-            canvas.css("background", "#ffe");
-            $await(Jscex.Async.sleep(300));
-            canvas.css("background", "none");
-        }));
-
-        var jumpAnimate = eval(Jscex.compile("async", function () {
-            var ctx = tree.ctx;
-            while (true) {
-                tree.ctx.clearRect(0, 0, width, height);
-                tree.jump();
-                foot.draw();
-                $await(Jscex.Async.sleep(25));
-            }
-        }));
-
-        var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2017,9 , 7); 			
-		    together.setHours(0);							
-		    together.setMinutes(0);				
-		    together.setSeconds(0);					
-		    together.setMilliseconds(0);			
-
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
-        }));
-
-        var runAsync = eval(Jscex.compile("async", function () {
-            $await(seedAnimate());
-            $await(growAnimate());
-            $await(flowAnimate());
-            $await(moveAnimate());
-
-            textAnimate().start();
-
-            $await(jumpAnimate());
-        }));
-
-        runAsync().start();
-    })();
-	function toggleShape()
-    {
-      var shape = document.getElementById('shape');
-      if (hasClassName(shape, 'ring')) {
-        removeClassName(shape, 'ring');
-        addClassName(shape, 'cube');
-      } else {
-        removeClassName(shape, 'cube');
-        addClassName(shape, 'ring');
-      }
-      
-      var stage = document.getElementById('stage');
-      if (hasClassName(shape, 'ring'))
-        stage.style.webkitTransform = 'translateZ(-200px)';
-      else
-        stage.style.webkitTransform = '';
-    }
-    function downloadLink()
-    {
-      location.href = 'https://huykhangvo.github.io/ToTinh07092019/';
-    }
-	function fc()
-    {
-      location.href = 'https://www.facebook.com/huykhangvo0209';
-    }
-  </script>
-</head>
-<body>
-
-  <div style="text-align: right;padding: 15px;"><button onclick="fc()">Hỏi Đáp</button>&nbsp;<button onclick="downloadLink()">Trả Lời</button></div>
-    </script>
-<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
-<p>Support: Chrome, CocCoc, Opera, Firefox, IE8,...</p>
-<p>Hỗ Trợ: <a href="https://www.facebook.com/huykhangvo0209" target="_blank">HuyKhang</a></p>
+    <div id="divResult3"></div>
+<a class="close-reveal-modal">&#215;</a>
 </div>
+<script language="javascript"> 
+    $(document).ready(function() {
+        $('#msb-nt').click(function() {
+                $('.music').slideToggle("fast");
+                $('#bg').css('display','none');
+        });
+    });
+</script>
+<div id="dialog-overlay"></div>
+<div id="dialog-box">
+	<div class="dialog-content">
+		<div id="dialog-message"></div>
+		<div id="msb-nt">
+		<a href="#">Ok. hihi :3</a>
+		</div>
+	</div>
+</div>
+		
+<div class="msg">
+			
+<h1>YÊU ANH KHÔNG ?</h1>
+			
+<h2>TẮT CÁI NÀY ĐI MÀ KHÔNG TRẢ LỜI SẼ </br>
+PHẢI YÊU ANH SUỐT ĐỜI ♥ =))</h2>
+
+		
+</div>
+		
+<center>
+<div id="co"> 
+<a href="#" data-reveal-id="myModal">CÓ! EM YÊU ANH</a>
+</div> 
+
+<div id="lbNo" style="position:absolute; left: 700px; top: 300px;"> 
+<input type="button" value="KHÔNG BAO GIỜ" style="cursor:pointer;" onMouseMove="move()" > 
+</div>
+</center> 
+
+<div class="music" style="display: none;">
+<object width="1" height="1">  <param name="movie" value="https://www.facebook.com/huykhangvo0209" />  <param name="quality" value="high" />  <param name="wmode" value="transparent" />  <param name="allowscriptaccess" value="always" /> <param name="allowfullscreen" value="true"/> <param name="flashvars" value="autostart=true" />  <embed src="http://www.nhaccuatui.com/m/BHKOQZhbiU" flashvars="target=blank&autostart=true" allowscriptaccess="always" allowfullscreen="true" quality="high" wmode="transparent" type="application/x-shockwave-flash" width="1" height="1"></embed></object>
+</div>
+<iframe src="https://www.nhaccuatui.com/mh/background/3oKi5jrZCWXk" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<script type="text/javascript">
+   $(document).ready(function(){
+      $(document).bind("contextmenu",function(e){
+        return false;
+      });
+    });
+ </script>	
 </body>
 </html>
-<iframe src="https://www.nhaccuatui.com/mh/auto/VyfpdksboLsO" width="620" height="382" frameborder="0" allowfullscreen allow="autoplay"></iframe>
